@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    color: green;
+    font-size: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+}
