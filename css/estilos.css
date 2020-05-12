@@ -2,8 +2,28 @@
     margin: 0;
     padding: 0;
 }
+
 main{
-    color: green;
-    font-size: 15vh;
-    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: center;
+}
+.inputCalc{
+    font-size: 1rem;
+    text-align: center;
+    width: 30%;
+    margin-top: 10%;
+    padding: 1rem;
+}
+input{
+    margin: 1%;
+    font-size: 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+#result{
+    border-style: solid;
+    border-color: red;
+}
+#result-box{
+    /* visibility:hidden; */
 }
